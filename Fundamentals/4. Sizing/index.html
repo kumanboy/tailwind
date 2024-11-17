@@ -1,36 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sizing</title>
-  </head>
-  <body class="p-20">
-    <!-- Width -->
-    <!-- https://tailwindcss.com/docs/width -->
+</head>
+<body class="p-20">
+<!-- Width -->
+<!-- https://tailwindcss.com/docs/width -->
+<h1>Width har tomondan</h1>
+<div class="bg-teal-100 p-5">
+    <div class="bg-red-600 m-1 w-0">0</div>
+    <div class="bg-red-600 m-1 w-1">1</div>
+    <div class="bg-red-600 m-1 w-1.5">1.5</div>
+    <div class="bg-red-600 m-1 w-2">2</div>
+    <div class="bg-red-600 m-1 w-3">3</div>
+    <div class="bg-red-600 m-1 w-5">5</div>
+    <div class="bg-red-600 m-1 w-6">6</div>
+    <div class="bg-red-600 m-1 w-7">7</div>
+    <div class="bg-red-600 m-1 w-8">8</div>
+    <div class="bg-red-600 m-1 w-9">9</div>
+    <div class="bg-red-600 m-1 w-10">10</div>
+    <div class="bg-red-600 m-1 w-11">11</div>
+    <div class="bg-red-600 m-1 w-12">12</div>
+    <div class="bg-red-600 m-1 w-14">14</div>
+    <div class="bg-red-600 m-1 w-16">16</div>
+    <div class="bg-red-600 m-1 w-20">20</div>
+    <div class="bg-red-600 m-1 w-24">24</div>
+    <div class="bg-red-600 m-1 w-28">28</div>
+    <div class="bg-red-600 m-1 w-32">32</div>
+    <div class="bg-red-600 m-1 w-36">36</div>
+    <div class="bg-red-600 m-1 w-40">40</div>
+    <div class="bg-red-600 m-1 w-44">44</div>
+    <div class="bg-red-600 m-1 w-48">48</div>
+    <div class="bg-red-600 m-1 w-52">52</div>
+    <div class="bg-red-600 m-1 w-56">56</div>
+    <div class="bg-red-600 m-1 w-60">60</div>
+    <div class="bg-red-600 m-1 w-64">64</div>
+    <div class="bg-red-600 m-1 w-72">72</div>
+    <div class="bg-red-600 m-1 w-80">80</div>
+    <div class="bg-red-600 m-1 w-96">96</div>
+</div>
+<!-- Percentages -->
+<h1>Percentages</h1>
+<div class="bg-teal-100 p-5">
+    <div class="bg-red-600 m-1 w-1/2">1/2</div>
+    <div class="bg-red-600 m-1 w-1/3">1/3</div>
+    <div class="bg-red-600 m-1 w-2/3">2/3</div>
+    <div class="bg-red-600 m-1 w-1/4">1/4</div>
+    <div class="bg-red-600 m-1 w-3/4">3/4</div>
+    <div class="bg-red-600 m-1 w-1/5">1/5</div>
+    <div class="bg-red-600 m-1 w-2/5">2/5</div>
+    <div class="bg-red-600 m-1 w-3/5">3/5</div>
+    <div class="bg-red-600 m-1 w-4/5">4/5</div>
+    <div class="bg-red-600 m-1 w-1/6">1/6</div>
+    <div class="bg-red-600 m-1 w-5/6">5/6</div>
+</div>
+<!-- Max Width -->
+<!-- https://tailwindcss.com/docs/max-width -->
+<h1>Max Width</h1>
 
-    <!-- Percentages -->
+    <div class="bg-yellow-200 mb-10  max-w-2xl">
+        Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort
+        of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+        Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort
+        of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.
+    </div>
 
-    <!-- Max Width -->
-    <!-- https://tailwindcss.com/docs/max-width -->
+<!-- Width of the viewport -->
+<h1>Width of the viewport</h1>
+<div class="bg-blue-300 my-2 p-5 w-screen">
+    (vw)screen
+</div>
 
-    <!-- Width of the viewport -->
-    <!-- 100% of container -->
-    <!-- Arbitrary Width -->
+<!-- 100% of container -->
+<div class="bg-blue-300 my-2 p-5 w-fill">
+    (vw)screen
+</div>
+<!-- Arbitrary Width -->
+<h1>Arbitrary Width</h1>
+<div class="bg-blue-300 my-2 p-5 w-[400px]">
+    Arbitrary Width(400px)
+</div>
+<!-- Height (Most of the same options as widths) -->
+<!-- https://tailwindcss.com/docs/height -->
+<h1 class="mt-5">Height All Around</h1>
+<div class="flex items-end mt-20 mb-10">
+    <div class="bg-indigo-400 ml-5 h-24">height 24</div>
+    <div class="bg-indigo-400 ml-5 h-32">height 32</div>
+    <div class="bg-indigo-400 ml-5 h-40">height 40</div>
+    <div class="bg-indigo-400 ml-5 h-48">height 48</div>
+    <div class="bg-indigo-400 ml-5 h-64">height 64</div>
+    <div class="bg-indigo-400 ml-5 h-80">height 80</div>
+</div>
 
-    <!-- Height (Most of the same options as widths) -->
-    <!-- https://tailwindcss.com/docs/height -->
+<!-- Min Height -->
+<!-- https://tailwindcss.com/docs/min-height -->
+<h1 class="mt-5">Min Height Full</h1>
+<div class="p-5 h-[400px] bg-green-300 mb-5">
+    <div class="min-h-full bg-teal-400">Take Full Height</div>
+</div>
 
-    <!-- Min Height -->
-    <!-- https://tailwindcss.com/docs/min-height -->
+<!-- Max Height -->
+<!-- https://tailwindcss.com/docs/max-height -->
+<div class="h-[150px] bg-orange-200 mb-10">
+    <div class="m-20 bg-orange-500 h-48 max-h-full">Max Height Full</div>
+</div>
 
-    <!-- Max Height -->
-    <!-- https://tailwindcss.com/docs/max-height -->
+<!-- Full screen height -->
+<h1 class="mb-2">Full Screen Height</h1>
+<div class="bg-pink-300 mb-4 h-screen">Hello</div>
 
-    <!-- Full screen height -->
-
-    <!-- Width Auto -->
-  </body>
+<!-- Width Auto -->
+<div class="bg-green-400 p-5 w-auto">Auto</div>
+</body>
 </html>
